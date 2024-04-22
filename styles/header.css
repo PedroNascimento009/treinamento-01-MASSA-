@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #F8F9FC;
+
+    padding: 20px;
+
+    height: 154px;
+
+    z-index: 2;
+    position: relative;
+}
+
+.navbar-1 {
+    max-width: 1200px;
+    padding-bottom: 14px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.navbar-1 ul {
+    display: flex;
+
+    list-style: none;
+}
+
+.logo{
+    flex: 1 1 10%;
+    justify-content: start;
+}
+
+.climate{
+    flex: 1 1 25%;
+    justify-content: center;
+}
+
+.climate li:last-child {
+    margin-left: 8px;
+}
+
+.ass-class{
+    justify-content: center;
+    flex: 1 1 18%;
+}
+
+.ass-class a {
+    text-decoration: none;
+}
+
+.ass-class li:first-child {
+    margin-right: 18px;
+}
+
+.search{
+    justify-content: center;
+    flex: 1 1 40%;
+}
+
+.search form {
+    position: relative;
+}
+
+
+.search input {
+    width: 321px;
+    height: 45px;
+
+    padding: 0px 20px;
+
+    border-radius: 14px;
+    border: 1px solid #E5E5E5;
+}
+
+.search button {
+    position: absolute;
+    right: 18px;
+    top: 13px;
+
+    background: transparent;
+
+    border: none;
+}
+
+.social{
+    flex: 1 1 10%;
+    justify-content: end;
+}
+
+.social li:last-child {
+    margin-left: 15px;
+}
+
+.social li img {
+    width: 39px;
+    height: 35px;
+    padding: 8px;
+}
+
+.social li {
+    background: #D51C17;
+    border-radius: 25px;
+}
+
+.btn-burguer a{
+    display: none;
+}
+
+
+.navbar-categories ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    height: 45px;
+
+    margin: 0 auto;
+
+    text-decoration: none;
+    list-style: none;
+
+    border-bottom: 1px solid #E5E5E5;
+}
