@@ -49,16 +49,16 @@ header {
     margin-left: 8px;
 }
 
-.ass-class{
+.assi-class{
     justify-content: center;
     flex: 1 1 18%;
 }
 
-.ass-class a {
+.assi-class a {
     text-decoration: none;
 }
 
-.ass-class li:first-child {
+.assi-class li:first-child {
     margin-right: 18px;
 }
 
@@ -114,6 +114,8 @@ header {
 
 .btn-burguer a{
     display: none;
+
+    margin-right: 20px;
 }
 
 
@@ -121,8 +123,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: nowrap;
 
     max-width: 1200px;
+    min-width: 200px;
     height: 45px;
 
     margin: 0 auto;
@@ -131,4 +135,26 @@ header {
     list-style: none;
 
     border-bottom: 1px solid #E5E5E5;
+
+    overflow-x: scroll;
+}
+
+.navbar-categories ul li{
+    margin-right: 10px;
+}
+
+.navbar-categories ul li:last-child{
+    margin: 0;
+}
+
+.navbar-categories ul::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar-categories a{
+    text-decoration: none;
+}
+
+.no-break{
+    white-space: nowrap;
 }

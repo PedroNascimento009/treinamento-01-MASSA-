@@ -1,0 +1,249 @@
+@media(max-width: 996px){
+    .body-main{
+       padding-top: 16vw;
+    }
+
+    .btn-burguer a{
+        display: block;
+    }
+
+    .search li{
+        display: none;
+    }
+
+    .climate{
+        flex-basis: 89%;
+    }
+
+    .assi-class{
+        flex-basis: 89%;
+    }
+
+    .icon-bg{
+        display: none;
+    }
+
+    .icon-bg-2{
+        display: none;
+    }
+
+    article section ul p{
+        font-size: 13px;
+
+        line-height: 16px;
+    }
+
+    footer{
+        padding: 0px 20px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 794px){
+    .body-main{
+        padding-top: 58vw;
+    }
+
+    .desktop-image{
+        display: none;
+    }
+
+    .mobile-image{
+        display: block;
+    }
+
+    .quote-1{
+        flex-direction: column;
+    }
+
+    .quote-1 figure:first-child blockquote{
+        max-width: 80%;
+    }
+
+    .quote-1 cite{
+        margin-bottom: 20px;
+    }
+
+    article section ul p{
+        font-size: 10px;
+        
+        line-height: 16px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 14px;
+
+        margin: 30px 0px;
+    }
+}
+
+@media(max-width: 668px){
+    .body-main{
+        padding-top: 60vw;
+    }
+
+    .assi-class li{
+        display: none;
+    }
+
+    .climate{
+        flex-basis: 170%;
+    }
+
+    .quote-1 blockquote{
+        font-size: 20px;
+    }
+
+    .video-eva iframe{
+        width: clamp(15rem, 77vw, 80rem);
+        height: clamp(10rem, 58vw, 60rem);
+    }
+
+    .album iframe{
+        width: clamp(15rem, 67vw, 60rem);
+        height: clamp(20rem, 70vw, 80rem);
+    }
+
+    .download-cape h3, .interview h3{
+        font-size: 12px;
+    }
+
+    .download-cape h4, .interview h4{
+        font-size: 10px;
+    }
+
+    .difficult{
+        font-size: 20px;
+    }
+
+    .text-center{
+        padding: 0;
+
+        font-size: 17px;
+    }
+
+    article{
+        height: 1250px;
+    }
+
+    article section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article ul{
+        width: 90%;
+        height: 200px;
+
+        margin: 10px;
+    }
+
+    h1{
+        font-size: 20px;
+
+        line-height: 20px;
+    }
+
+    p{
+        font-size: 14px;
+
+        margin: 20px 0px;
+    }
+}
+
+@media(max-width: 572px){
+    .body-main{
+        padding-top: 60vw;
+
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box-img-home ul{
+        padding: 0px 20px;
+    }
+
+    .box-img-home ul li:first-child{
+        padding-bottom: 10px;
+    }
+
+    header {
+        height: 130px;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .climate img{
+        width: 20px;
+    }
+
+    .climate h5{
+        font-size: 10px;
+    }
+
+    .climate h6{
+        font-size: 8px;
+    }
+
+    .climate{
+        flex-basis: 800%;
+        justify-content: end;
+    }
+
+    .social li{
+        display: none;
+    }
+
+    .box-img-home ul{
+        max-width: 1250px;
+    }    
+
+    .quote-1 figure:last-child img{
+        width: 300px;
+        height: 220px;
+    }
+
+    .project{
+        font-size: 10px;
+    }
+
+    .quote-1 blockquote{
+        font-size: 15px;
+    }
+
+    article figure{
+        padding: 20px;
+    }
+
+    p{
+        line-height: 20px;
+    }
+}
+
+@media(max-width: 392px){
+    .body-main{
+        padding-top: 73vw;
+    }
+
+    .quote-1 figure:last-child img{
+        width: 250px;
+        height: 160px;
+    }
+
+    .navbar-top ul:first-child li img{
+        width: 150px;
+    }
+}
