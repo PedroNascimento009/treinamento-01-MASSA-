@@ -7,26 +7,26 @@
 header {
     background-color: #F8F9FC;
 
-    padding: 20px;
+    z-index: 2;
+    position: relative;
 
     height: 154px;
 
-    z-index: 2;
-    position: relative;
+    padding: 20px;
 }
 
 .navbar-1 {
     max-width: 1200px;
     padding-bottom: 14px;
 
-    margin: 0 auto;
-
     display: flex;
     align-items: center;
 
-    list-style: none;
+    margin: 0 auto;
 
     border-bottom: 1px solid #E5E5E5;
+
+    list-style: none;
 }
 
 .navbar-1 ul {
@@ -35,12 +35,12 @@ header {
     list-style: none;
 }
 
-.logo{
+.logo {
     flex: 1 1 10%;
     justify-content: start;
 }
 
-.climate{
+.climate {
     flex: 1 1 25%;
     justify-content: center;
 }
@@ -49,7 +49,7 @@ header {
     margin-left: 8px;
 }
 
-.assi-class{
+.assi-class {
     justify-content: center;
     flex: 1 1 18%;
 }
@@ -62,7 +62,7 @@ header {
     margin-right: 18px;
 }
 
-.search{
+.search {
     justify-content: center;
     flex: 1 1 40%;
 }
@@ -83,16 +83,16 @@ header {
 }
 
 .search button {
+    background: transparent;
+
     position: absolute;
     right: 18px;
     top: 13px;
 
-    background: transparent;
-
     border: none;
 }
 
-.social{
+.social {
     flex: 1 1 10%;
     justify-content: end;
 }
@@ -104,57 +104,59 @@ header {
 .social li img {
     width: 39px;
     height: 35px;
+
     padding: 8px;
 }
 
 .social li {
     background: #D51C17;
+
     border-radius: 25px;
 }
 
-.btn-burguer a{
+.btn-burguer a {
     display: none;
 
     margin-right: 20px;
 }
 
 
-.navbar-categories ul{
+.navbar-categories ul {
+    max-width: 1200px;
+    min-width: 200px;
+    height: 45px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
 
-    max-width: 1200px;
-    min-width: 200px;
-    height: 45px;
-
     margin: 0 auto;
-
-    text-decoration: none;
-    list-style: none;
 
     border-bottom: 1px solid #E5E5E5;
 
     overflow-x: scroll;
+
+    text-decoration: none;
+    list-style: none;
 }
 
-.navbar-categories ul li{
+.navbar-categories ul li {
     margin-right: 10px;
 }
 
-.navbar-categories ul li:last-child{
+.navbar-categories ul li:last-child {
     margin: 0;
 }
 
-.navbar-categories ul::-webkit-scrollbar{
+.navbar-categories ul::-webkit-scrollbar {
     display: none;
 }
 
-.navbar-categories a{
+.navbar-categories a {
     text-decoration: none;
 }
 
-.no-break{
+.no-break {
     white-space: nowrap;
 }

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-    font-family: "Poppins", sans-serif;}
+body {
+    font-family: "Poppins", sans-serif;
+}
 
-h1{
+h1 {
     font-size: 48px;
     font-weight: bold;
 
@@ -12,117 +13,126 @@ h1{
     line-height: 49px;
 }
 
-h5{
+h5 {
     color: #6C6C6C;
 }
 
-p{
+p {
     line-height: 30px;
     font-size: 16px;
 
     color: #2F2F2F;
 }
 
-.climate h5{
+.climate h5 {
     font-size: 14px;
-    
+
     color: #2F2F2F;
 }
 
-.climate h6{
+.climate h6 {
     font-size: 12px;
 
     color: #7C7C7C;
 }
 
-.assi-class a{
+.assi-class a {
     font-size: 12px;
     font-weight: bolder;
 
     color: #D51C17;
 }
 
-.navbar-categories a{
+.navbar-categories a {
     font-size: 11px;
     font-weight: 700;
 
     color: #2F2F2F;
 }
 
-.box-img-home a{
+.box-img-home a {
     font-size: 12px;
     font-weight: 700;
 
     color: #D51C17;
 }
 
-.box-img-home h5{
+.box-img-home h5 {
     font-size: 12px;
 }
 
-.project{
+.project {
     font-size: 20px;
 
     color: #7C7C7C;
 }
 
-.icon-bg figcaption{
+.icons div:first-child figcaption {
     font-size: 10px;
     font-weight: bold;
 
     color: #D51C17;
 }
 
-.quote-1 blockquote{
+.icons-2 a {
+    font-size: 10px;
+    font-weight: bold;
+
+    color: #D51C17;
+}
+
+.quote-1 blockquote {
     font-size: 24px;
     font-weight: bold;
 
     color: #2F2F2F;
 }
 
-.reprodution{
+.reprodution {
     font-size: 12px;
 
     color: #7C7C7C;
 }
 
-.download-cape h3, .interview h3{
+.download-cape h3,
+.interview h3 {
     font-size: 14px;
 
     color: #D51C17;
 }
 
-.download-cape h4, .interview h4{
+.download-cape h4,
+.interview h4 {
     font-size: 12px;
 
     color: #9F9F9F;
 }
 
-.difficult{
+.difficult {
     font-size: 36px;
 
     color: #2F2F2F;
 }
 
-.text-center{
+.text-center {
     font-size: 24px;
     font-weight: bold;
 
     color: #D51C17;
 }
 
-article h2{
+article h2 {
     font-size: 30px;
     font-weight: bolder;
 
     color: #D51C17;
 }
 
-article h4{
+article h4 {
     font-size: 10px;
 }
 
-article ul p{
+article ul p {
     font-size: 15px;
     font-weight: bold;
 
@@ -131,19 +141,24 @@ article ul p{
     line-height: 20px;
 }
 
-article ul li p:last-child{
+article ul li p:last-child {
     font-size: 10px;
     font-weight: 500;
 
     color: #9F9F9F;
 }
 
-.navbar-down a{
+.navbar-down h3 {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.navbar-down a {
     font-size: 12px;
 
     color: #2F2F2F;
 }
 
-.copyright h5{
+.copyright h5 {
     font-size: 10px;
 }

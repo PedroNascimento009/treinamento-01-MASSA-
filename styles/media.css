@@ -1,180 +1,228 @@
-@media(max-width: 996px){
-    .body-main{
-       padding-top: 16vw;
+@media(max-width: 996px) {
+    .body-main {
+        bottom: 60px;
     }
 
-    .btn-burguer a{
+    .btn-burguer a {
         display: block;
     }
 
-    .search li{
+    .search li {
         display: none;
     }
 
-    .climate{
+    .climate {
         flex-basis: 89%;
     }
 
-    .assi-class{
+    .assi-class {
         flex-basis: 89%;
     }
 
-    .icon-bg{
+    .icons div:first-child {
         display: none;
     }
 
-    .icon-bg-2{
+    .icons div:last-child {
         display: none;
     }
 
-    article section ul p{
+    .icons-2 {
+        display: flex;
+        justify-content: center;
+
+        padding-bottom: 20px;
+    }
+
+    .icons-2 a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        flex: 1 1 35%;
+    }
+
+    footer {
+        padding: 0px 20px;
+    }
+
+    .navbar-down ul {
+        margin-bottom: 20px;
+    }
+
+    /* FONTS */
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    article section ul p {
         font-size: 13px;
 
         line-height: 16px;
     }
-
-    footer{
-        padding: 0px 20px;
-    }
-
-    h1{
-        font-size: 40px;
-    }
-
-    p{
-        font-size: 15px;
-    }
 }
 
-@media(max-width: 794px){
-    .body-main{
-        padding-top: 58vw;
-    }
-
-    .desktop-image{
+@media(max-width: 794px) {
+    .desktop-image {
         display: none;
     }
 
-    .mobile-image{
+    .mobile-image {
         display: block;
     }
 
-    .quote-1{
+    .quote-1 {
         flex-direction: column;
     }
 
-    .quote-1 figure:first-child blockquote{
+    .quote-1 figure:first-child blockquote {
         max-width: 80%;
     }
 
-    .quote-1 cite{
+    .quote-1 cite {
         margin-bottom: 20px;
     }
 
-    article section ul p{
+    /* FONTS */
+
+    article section ul p {
         font-size: 10px;
-        
+
         line-height: 16px;
     }
 
-    h1{
-        font-size: 35px;
+    h1 {
+        font-size: 38px;
     }
 
-    p{
+    p {
         font-size: 14px;
 
         margin: 30px 0px;
     }
 }
 
-@media(max-width: 668px){
-    .body-main{
-        padding-top: 60vw;
-    }
-
-    .assi-class li{
+@media(max-width: 668px) {
+    .assi-class li {
         display: none;
     }
 
-    .climate{
+    .climate {
         flex-basis: 170%;
     }
 
-    .quote-1 blockquote{
-        font-size: 20px;
-    }
-
-    .video-eva iframe{
-        width: clamp(15rem, 77vw, 80rem);
+    .video-eva iframe {
+        width: clamp(17rem, 77vw, 80rem);
         height: clamp(10rem, 58vw, 60rem);
     }
 
-    .album iframe{
-        width: clamp(15rem, 67vw, 60rem);
-        height: clamp(20rem, 70vw, 80rem);
+    .album iframe {
+        width: clamp(18rem, 67vw, 60rem);
+        height: clamp(27rem, 70vw, 80rem);
     }
 
-    .download-cape h3, .interview h3{
-        font-size: 12px;
-    }
-
-    .download-cape h4, .interview h4{
-        font-size: 10px;
-    }
-
-    .difficult{
-        font-size: 20px;
-    }
-
-    .text-center{
+    .text-center {
         padding: 0;
-
-        font-size: 17px;
     }
 
-    article{
+    article {
         height: 1250px;
     }
 
-    article section{
+    article section {
         flex-direction: column;
         align-items: center;
     }
 
-    article ul{
+    article ul {
         width: 90%;
         height: 200px;
 
         margin: 10px;
     }
 
-    h1{
-        font-size: 20px;
-
-        line-height: 20px;
+    article ul:last-child {
+        margin-left: 0;
     }
 
-    p{
+    article ul li{
+        padding: 30px;
+    }
+
+    .navbar-down{
+        padding-bottom: 0px;
+    }
+
+    .copyright h5{
+        text-align: center;
+    }
+
+    .copyright img{
+        display: none;
+    }
+
+    footer figure{
+        display: block;
+
+        text-align: end;
+    }
+
+    /* FONTS */
+
+    h1 {
+        font-size: 30px;
+
+        line-height: 35px;
+    }
+
+    p {
         font-size: 14px;
 
         margin: 20px 0px;
     }
-}
 
-@media(max-width: 572px){
-    .body-main{
-        padding-top: 60vw;
-
-        padding-left: 20px;
-        padding-right: 20px;
+    .quote-1 blockquote {
+        font-size: 20px;
     }
 
-    .box-img-home ul{
+    .download-cape h3,
+    .interview h3 {
+        font-size: 12px;
+    }
+
+    .download-cape h4,
+    .interview h4 {
+        font-size: 10px;
+    }
+
+    .difficult {
+        font-size: 20px;
+    }
+
+    .text-center {
+        font-size: 17px;
+    }
+
+    article ul li p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 572px) {
+    .body-main {
         padding: 0px 20px;
     }
 
-    .box-img-home ul li:first-child{
+    .box-img-home ul {
+        padding: 0px 20px;
+    }
+
+    .box-img-home ul li:first-child {
         padding-bottom: 10px;
     }
 
@@ -182,68 +230,101 @@
         height: 130px;
     }
 
-    .logo img{
+    .logo img {
         width: 100px;
     }
 
-    .climate img{
+    .climate img {
         width: 20px;
     }
 
-    .climate h5{
-        font-size: 10px;
-    }
-
-    .climate h6{
-        font-size: 8px;
-    }
-
-    .climate{
+    .climate {
         flex-basis: 800%;
         justify-content: end;
     }
 
-    .social li{
+    .social li {
         display: none;
     }
 
-    .box-img-home ul{
+    .box-img-home ul {
         max-width: 1250px;
-    }    
+    }
 
-    .quote-1 figure:last-child img{
+    .quote-1 figure:last-child img {
         width: 300px;
         height: 220px;
     }
 
-    .project{
+    .quote-1 figure:first-child blockquote {
+        max-width: 330px;
+    }
+
+    /* FONTS */
+
+    .climate h5 {
         font-size: 10px;
     }
 
-    .quote-1 blockquote{
-        font-size: 15px;
+    .climate h6 {
+        font-size: 8px;
     }
 
-    article figure{
+    .project {
+        font-size: 17px;
+    }
+
+    .quote-1 blockquote {
+        font-size: 20px;
+    }
+
+    article figure {
         padding: 20px;
     }
 
-    p{
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+
         line-height: 20px;
     }
 }
 
-@media(max-width: 392px){
-    .body-main{
-        padding-top: 73vw;
-    }
-
-    .quote-1 figure:last-child img{
+@media(max-width: 392px) {
+    .quote-1 figure:last-child img {
         width: 250px;
         height: 160px;
     }
 
-    .navbar-top ul:first-child li img{
+    .navbar-top ul:first-child li img {
         width: 150px;
     }
+
+    /* FONTS */
+
+    h1 {
+        font-size: 22px;
+
+        line-height: 24px;
+    }
+
+    .project {
+        font-size: 14px;
+    }
+
+    .box-img-home ul li h5 {
+        font-size: 10px;
+    }
+
+    .copuright h5 {
+        font-size: 10px;
+    }
+
+    .navbar-down figure{
+        margin-left: 70vw;
+    }
+
 }

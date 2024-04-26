@@ -1,122 +1,148 @@
-main{
+main {
     background-color: #F8F9FC;
 }
 
-p{
+p {
     margin: 40px 0px;
 }
 
-.mobile-image, .mobile-image-2{
+.mobile-image,
+.mobile-image-2 {
     display: none;
 }
 
-.box-img-home{
+.box-img-home {
     position: relative;
 
-    height: 36vw;
+    padding-bottom: 0px;
 }
 
-.picture-main img{
+.picture-main img {
     z-index: 1;
     position: relative;
+
     width: 100%;
 }
 
-.box-img-home ul{
-    position: relative;
+.box-img-home ul {
     z-index: 2;
+    position: relative;
     bottom: 70px;
 }
 
-.box-img-home ul{
+.box-img-home ul {
     background-color: #F5F8F7;
 
     max-width: 950px;
 
     margin: 0 auto;
-
     padding: 0px 50px;
 
     list-style: none;
 }
 
-.box-img-home ul li:first-child{
+.box-img-home ul li:first-child {
     padding-top: 35px;
     padding-bottom: 38px;
 }
 
-.box-img-home ul li:last-child{
-    padding-bottom: 10px;
+.box-img-home ul li:last-child {
+    padding-bottom: 0;
 }
 
-.box-img-home a{
+.box-img-home a {
     text-decoration: none;
 }
 
-.icon-bg{
+.icons {
     position: relative;
+    bottom: 76px;
+}
+
+.icons div:first-child {
     z-index: 3;
+    position: relative;
+
+    max-width: 1145px;
+
+    margin: 0 auto;
 
     display: flex;
     justify-content: space-between;
-    
+
     text-align: center;
-
-    max-width: 1145px;
-    margin: 0 auto;
 }
 
-.icon-bg-2{
-    position: relative;
+.icons div:last-child {
     z-index: 3;
+    position: relative;
 
     max-width: 1145px;
 
     margin: 0 auto;
 }
 
-.icon-bg-2 figure{
+.icons div:last-child figure {
+    max-width: 31.69px;
+    height: 30px;
+
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-    height: 30px;
-
-    max-width: 31.69px;
 
     padding: 25px 0px;
 }
 
-.icon-bg-2 figure img{
+.icons div:last-child figure img {
     margin-bottom: 11px;
 }
 
-.body-main{
-    z-index: 2;
-    position: relative;
-    bottom: 76px;
+.icons-2 {
+    max-width: 80%;
 
-    max-width: 960px;
-    padding: 0px 50px;
+    display: none;
 
     margin: 0 auto;
 }
 
-.body-main p{
+.icons-2 img {
+    margin-bottom: 6px;
+}
+
+.icons-2 a {
+    text-decoration: none;
+}
+
+.body-main {
+    z-index: 2;
+    position: relative;
+    bottom: 136px;
+
+    max-width: 960px;
+
+    padding: 0px 50px;
+    margin: 0 auto;
+}
+
+.body-main section:first-child {
+    padding-top: 0px;
+}
+
+.body-main p {
     margin-top: 10px;
 }
 
-.quote-1{
+.quote-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.quote-1 figure{
+.quote-1 figure {
     flex: 1 1 50%;
 }
 
-.quote-1 figure:first-child{
+.quote-1 figure:first-child {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,13 +150,13 @@ p{
     text-align: center;
 }
 
-.quote-1 figure:first-child img{
+.quote-1 figure:first-child img {
     width: 14%;
 
     margin: 0 auto;
 }
 
-.quote-1 figure:first-child blockquote{
+.quote-1 figure:first-child blockquote {
     max-width: 357px;
 
     margin: 0 auto;
@@ -138,58 +164,59 @@ p{
     margin-bottom: 8px;
 }
 
-.video-eva{
-    text-align: center;
-
+.video-eva {
     margin: 40px auto;
+
+    text-align: center;
 }
 
-.video-eva iframe{
+.video-eva iframe {
     border-radius: 6px;
 }
 
-.album h2{
+.album h2 {
     margin-bottom: 15px;
 }
 
-.album{
+.album {
     text-align: center;
 }
 
-.border-red{
-    border: 1px solid #D51C17;
-    border-radius: 20px;
-
+.border-red {
     display: flex;
     align-items: center;
 
     padding: 12px;
+
+    border: 1px solid #D51C17;
+    border-radius: 20px;
 }
 
-.download-cape, .interview{
+.download-cape,
+.interview {
     display: flex;
     align-items: center;
 
     margin-bottom: 30px;
 }
 
-.download-cape div, .interview div{
+.download-cape div,
+.interview div {
     margin-left: 15px;
 }
 
-.text-center{
-    padding-left: 50px;
+.text-center {
+    max-width: 820px;
 
+    padding-left: 50px;
     margin: 0 auto;
     margin-bottom: 40px;
-
-    max-width: 820px;
 }
 
-.picture-birth{
+.picture-birth {
     text-align: center;
 }
 
-.picture-birth img{
+.picture-birth img {
     width: 100%;
 }
