@@ -1,8 +1,12 @@
 footer {
     background-color: #EBEBEB;
+
+    max-width: 1440px;
+
+    margin: 0 auto;
 }
 
-footer figure{
+footer figure {
     display: none;
 }
 
@@ -31,20 +35,20 @@ footer figure{
 }
 
 .social-2 li:last-child {
-    margin-left: 15px;
-}
-
-.social-2 li {
     background: #D51C17;
 
     border-radius: 25px;
+
+    margin-left: 15px;
+    padding: 9.5px 10.5px 3.5px 10.5px;
 }
 
-.social-2 li img {
-    width: 39px;
-    height: 35px;
+.social-2 li:first-child {
+    background: #D51C17;
 
-    padding: 8px;
+    border-radius: 25px;
+
+    padding: 11px 16.2px 6px 16.2px;
 }
 
 .navbar-down {
@@ -56,8 +60,6 @@ footer figure{
 
     margin: 0 auto;
     padding-bottom: 55px;
-
-    border-bottom: 1px solid #E5E5E5;
 }
 
 .navbar-down ul {
@@ -93,6 +95,6 @@ footer figure{
     border-top: 2px solid #C2C2C2;
 }
 
-.copyright h5{
+.copyright h5 {
     max-width: 90%;
 }

@@ -1,5 +1,9 @@
 main {
     background-color: #F8F9FC;
+
+    max-width: 1440px;
+
+    margin: 0 auto;
 }
 
 p {
@@ -15,6 +19,12 @@ p {
     position: relative;
 
     padding-bottom: 0px;
+}
+
+.picture-main {
+    max-width: 1440px;
+
+    margin: 0 auto;
 }
 
 .picture-main img {
@@ -97,6 +107,10 @@ p {
     margin-bottom: 11px;
 }
 
+.icons p {
+    margin: 0;
+}
+
 .icons-2 {
     max-width: 80%;
 
@@ -111,6 +125,10 @@ p {
 
 .icons-2 a {
     text-decoration: none;
+}
+
+.icons-2 p {
+    margin: 0;
 }
 
 .body-main {

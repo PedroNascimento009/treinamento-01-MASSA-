@@ -2,6 +2,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    font-display: optional;
 }
 
 h1 {
@@ -67,15 +68,14 @@ p {
     color: #7C7C7C;
 }
 
-.icons div:first-child figcaption {
+.icons div:first-child p {
     font-size: 10px;
     font-weight: bold;
 
     color: #D51C17;
 }
 
-.icons-2 a {
-    font-size: 10px;
+.icons-2 p {
     font-weight: bold;
 
     color: #D51C17;
