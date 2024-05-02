@@ -1,9 +1,10 @@
-main {
+body {
     background-color: #F8F9FC;
 
-    max-width: 1440px;
+}
 
-    margin: 0 auto;
+main {
+    background-color: #F8F9FC;
 }
 
 p {
@@ -107,6 +108,10 @@ p {
     margin-bottom: 11px;
 }
 
+.icons a:hover {
+    opacity: 0.9;
+}
+
 .icons p {
     margin: 0;
 }
@@ -127,114 +132,10 @@ p {
     text-decoration: none;
 }
 
+.icons-2 img:hover {
+    opacity: 0.9;
+}
+
 .icons-2 p {
     margin: 0;
-}
-
-.body-main {
-    z-index: 2;
-    position: relative;
-    bottom: 136px;
-
-    max-width: 960px;
-
-    padding: 0px 50px;
-    margin: 0 auto;
-}
-
-.body-main section:first-child {
-    padding-top: 0px;
-}
-
-.body-main p {
-    margin-top: 10px;
-}
-
-.quote-1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.quote-1 figure {
-    flex: 1 1 50%;
-}
-
-.quote-1 figure:first-child {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    text-align: center;
-}
-
-.quote-1 figure:first-child img {
-    width: 14%;
-
-    margin: 0 auto;
-}
-
-.quote-1 figure:first-child blockquote {
-    max-width: 357px;
-
-    margin: 0 auto;
-    margin-top: 22px;
-    margin-bottom: 8px;
-}
-
-.video-eva {
-    margin: 40px auto;
-
-    text-align: center;
-}
-
-.video-eva iframe {
-    border-radius: 6px;
-}
-
-.album h2 {
-    margin-bottom: 15px;
-}
-
-.album {
-    text-align: center;
-}
-
-.border-red {
-    display: flex;
-    align-items: center;
-
-    padding: 12px;
-
-    border: 1px solid #D51C17;
-    border-radius: 20px;
-}
-
-.download-cape,
-.interview {
-    display: flex;
-    align-items: center;
-
-    margin-bottom: 30px;
-}
-
-.download-cape div,
-.interview div {
-    margin-left: 15px;
-}
-
-.text-center {
-    max-width: 820px;
-
-    padding-left: 50px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-}
-
-.picture-birth {
-    text-align: center;
-}
-
-.picture-birth img {
-    width: 100%;
 }

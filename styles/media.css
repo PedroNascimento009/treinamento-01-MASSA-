@@ -1,9 +1,9 @@
 @media(max-width: 996px) {
-    .body-main {
+    .article-main {
         margin-top: 20px;
     }
 
-    .body-main {
+    .article-main {
         bottom: 60px;
     }
 
@@ -68,7 +68,7 @@
         font-size: 16px;
     }
 
-    article section ul p {
+    .read-too section ul p {
         font-size: 13px;
 
         line-height: 16px;
@@ -90,7 +90,7 @@
         bottom: 0px;
     }
 
-    .body-main {
+    .article-main {
         bottom: 0px;
     }
 
@@ -112,7 +112,7 @@
 
     /* FONTS */
 
-    article section ul p {
+    .read-too section ul p {
         font-size: 10px;
 
         line-height: 16px;
@@ -156,27 +156,27 @@
         padding: 0;
     }
 
-    article {
+    .read-too {
         height: 1250px;
     }
 
-    article section {
+    .read-too section {
         flex-direction: column;
         align-items: center;
     }
 
-    article ul {
+    .read-too ul {
         width: 90%;
         height: 200px;
 
         margin: 10px;
     }
 
-    article ul:last-child {
+    .read-too ul:last-child {
         margin-left: 0;
     }
 
-    article ul li {
+    .read-too ul li {
         padding: 30px;
     }
 
@@ -236,13 +236,13 @@
         font-size: 17px;
     }
 
-    article ul li p {
+    .read-too ul li p {
         font-size: 15px;
     }
 }
 
 @media(max-width: 572px) {
-    .body-main {
+    .article-main {
         padding: 0px 20px;
     }
 
@@ -310,7 +310,7 @@
         font-size: 20px;
     }
 
-    article figure {
+    .read-too figure {
         padding: 20px;
     }
 
