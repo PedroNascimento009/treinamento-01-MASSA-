@@ -40,11 +40,6 @@ header {
     justify-content: start;
 }
 
-.logo img {
-    width: 145px;
-    height: 50px;
-}
-
 .climate {
     flex: 1 1 25%;
     justify-content: center;
