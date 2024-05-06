@@ -35,7 +35,7 @@ p {
 }
 
 .picture-main {
-    max-width: 1440px;
+    max-width: 1300px;
 
     margin: 0 auto;
 }
@@ -45,6 +45,7 @@ p {
     position: relative;
 
     width: 100%;
+    height: auto;
 }
 
 .box-img-home ul {

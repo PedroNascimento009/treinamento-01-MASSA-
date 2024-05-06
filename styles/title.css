@@ -49,11 +49,19 @@ p {
     color: #D51C17;
 }
 
+.search input{
+    color: #9F9F9F;
+}
+
 .navbar-categories a {
     font-size: 11px;
     font-weight: 700;
 
     color: #2F2F2F;
+}
+
+.no-break:last-child a { 
+    color: #D51C17;
 }
 
 .box-img-home a {
