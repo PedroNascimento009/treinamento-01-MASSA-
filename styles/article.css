@@ -57,6 +57,7 @@
 
 .video-eva iframe {
     border-radius: 6px;
+    border: 0px;
 }
 
 .album h2 {
@@ -67,6 +68,10 @@
     margin-bottom: 50px;
 
     text-align: center;
+}
+
+.album iframe {
+    border: 1px;
 }
 
 .border-red {

@@ -25,6 +25,10 @@ p {
     color: #2F2F2F;
 }
 
+.upppercase {
+    text-transform: uppercase;
+}
+
 .climate h5 {
     font-size: 14px;
 
@@ -33,6 +37,7 @@ p {
 
 .climate h6 {
     font-size: 12px;
+    font-weight: 500;
 
     color: #7C7C7C;
 }
