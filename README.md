@@ -1,7 +1,7 @@
 
 # Projeto do Portal Massa
 
-Esse projeto foi feito para intuito de desenvolvimento próprio, caso haja algum erro, ficarei grato ao reportar.
+Esse projeto foi proposto pela empresa Mundiware para meu desenvolvimento profissional, caso haja algum erro, ficarei grato ao reportar.
 
 
 ## Site
