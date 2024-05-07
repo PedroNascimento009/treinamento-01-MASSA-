@@ -60,7 +60,9 @@
     border: 0px;
 }
 
-.album h2 {
+.album span {
+    display: block;
+
     margin-bottom: 15px;
 }
 
@@ -111,6 +113,7 @@
 
 .picture-birth img {
     width: 100%;
+    height: auto;
 }
 
 .read-too {
@@ -156,11 +159,11 @@
     list-style: none;
 }
 
-.read-too ul h4 {
+.read-too ul span {
     background-color: #D51C17;
     color: #FFFFFF;
 
-    padding: 4px 3px;
+    padding: 4px 10px;
 
     width: 63px;
 
