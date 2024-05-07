@@ -45,6 +45,7 @@ p {
     position: relative;
 
     width: 100%;
+    height: auto;
 }
 
 .box-img-home ul {
@@ -82,7 +83,7 @@ p {
     bottom: 76px;
 }
 
-.icons div:first-child {
+.icons ul:first-child {
     z-index: 3;
     position: relative;
 
@@ -94,9 +95,10 @@ p {
     justify-content: space-between;
 
     text-align: center;
+    list-style: none;
 }
 
-.icons div:last-child {
+.icons ul:last-child {
     z-index: 3;
     position: relative;
 
@@ -105,7 +107,7 @@ p {
     margin: 0 auto;
 }
 
-.icons div:last-child figure {
+.icons ul:last-child li {
     max-width: 31.69px;
     height: 30px;
 
@@ -116,7 +118,7 @@ p {
     padding: 25px 0px;
 }
 
-.icons div:last-child figure img {
+.icons ul:last-child li img {
     margin-bottom: 11px;
 }
 

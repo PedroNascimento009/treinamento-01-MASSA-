@@ -82,7 +82,7 @@ p {
     color: #525252;
 }
 
-.icons div:first-child p {
+.icons ul:first-child p {
     font-size: 10px;
     font-weight: bold;
 
@@ -135,7 +135,7 @@ p {
     color: #2F2F2F;
 }
 
-.text-center {
+.text-center mark{
     font-size: 24px;
     font-weight: bold;
 

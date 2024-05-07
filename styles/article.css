@@ -23,11 +23,11 @@
     align-items: center;
 }
 
-.quote-1 figure {
+.quote-1 div {
     flex: 1 1 50%;
 }
 
-.quote-1 figure:first-child {
+.quote-1 div:first-child {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,13 +35,13 @@
     text-align: center;
 }
 
-.quote-1 figure:first-child img {
+.quote-1 div:first-child img {
     width: 14%;
 
     margin: 0 auto;
 }
 
-.quote-1 figure:first-child blockquote {
+.quote-1 div:first-child blockquote {
     max-width: 357px;
 
     margin: 0 auto;
@@ -96,7 +96,7 @@
 
 .download-cape div,
 .interview div {
-    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .text-center {
@@ -105,6 +105,10 @@
     padding-left: 50px;
     margin: 0 auto;
     margin-bottom: 40px;
+}
+
+.text-center mark{
+    background-color: transparent;
 }
 
 .picture-birth {
@@ -122,7 +126,7 @@
     height: 343px;
 }
 
-.read-too figure {
+.read-too div {
     max-width: 1200px;
 
     display: flex;
