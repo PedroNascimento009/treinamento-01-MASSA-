@@ -1,4 +1,10 @@
 @media(max-width: 996px) {
+    .desktop-image {
+        height: 360px;
+
+        object-fit: cover;
+    }
+
     .article-main {
         margin-top: 20px;
     }
@@ -93,8 +99,6 @@
 
     .mobile-image {
         display: block;
-
-        height: auto;
     }
 
     .box-img-home ul {
@@ -149,6 +153,10 @@
 }
 
 @media(max-width: 668px) {
+    .mobile-image {
+        height: 400px;
+    }
+
     .assi-class li {
         display: none;
     }
@@ -261,6 +269,10 @@
 }
 
 @media(max-width: 572px) {
+    .mobile-image {
+        height: 300px;
+    }
+
     .article-main {
         padding: 0px 20px;
     }
@@ -345,6 +357,10 @@
 }
 
 @media(max-width: 392px) {
+    .mobile-image {
+        height: 250px;
+    }
+
     .navbar-top ul:first-child li img {
         width: 150px;
     }
