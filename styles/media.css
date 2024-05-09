@@ -11,7 +11,7 @@
         display: block;
     }
 
-    .search li {
+    .search form {
         display: none;
     }
 
@@ -81,6 +81,7 @@
 
         height: 2px;
     }
+
     .navbar-categories ul::-webkit-scrollbar-thumb {
         background-color: #D51C17;
 
@@ -147,12 +148,13 @@
 }
 
 @media(max-width: 668px) {
-    .assi-class li {
+    .assi-class a {
         display: none;
     }
 
     .climate {
         flex-basis: 170%;
+        justify-content: end;
     }
 
     .video-eva iframe {
@@ -207,7 +209,7 @@
         display: none;
     }
 
-    footer div {
+    .logo-mw {
         display: block;
 
         text-align: end;
@@ -249,8 +251,8 @@
         font-size: 20px;
     }
 
-    .text-center {
-        font-size: 17px;
+    .text-center mark {
+        font-size: 20px;
     }
 
     .read-too ul li p {
@@ -275,20 +277,34 @@
         height: 145px;
     }
 
-    .logo img {
-        width: 100px;
+    .navbar-1 {
+        justify-content: space-between;
+    }
+
+    .logo {
+        flex-basis: 10%;
+        justify-content: flex-start;
+    }
+
+    .logo img,
+    .navbar-top div:first-child img {
+        width: 130px;
+        height: 45px;
     }
 
     .climate img {
         width: 20px;
+        height: 20px;
     }
 
     .climate {
         flex-basis: 800%;
         justify-content: end;
+
+        margin-left: 7px;
     }
 
-    .social li {
+    .social a {
         display: none;
     }
 
@@ -307,12 +323,15 @@
 
     /* FONTS */
 
-    .climate h5 {
-        font-size: 10px;
+    .climate span:first-child {
+        font-size: 12px;
+        font-weight: bolder;
     }
 
-    .climate h6 {
-        font-size: 8px;
+    .climate span:last-child {
+        font-size: 10px;
+
+        white-space: nowrap;
     }
 
     .project {
@@ -343,9 +362,6 @@
 }
 
 @media(max-width: 392px) {
-    .navbar-top ul:first-child li img {
-        width: 150px;
-    }
 
     /* FONTS */
 

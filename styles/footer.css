@@ -2,7 +2,7 @@ footer {
     background-color: #EBEBEB;
 }
 
-footer div {
+.logo-mw {
     display: none;
 }
 
@@ -17,12 +17,12 @@ footer div {
     margin: 0 auto;
 }
 
-.navbar-top ul:first-child li img {
+.navbar-top div:first-child li img {
     width: 203px;
     height: 70px;
 }
 
-.navbar-top ul {
+.navbar-top div {
     list-style: none;
 }
 
@@ -30,7 +30,7 @@ footer div {
     display: flex;
 }
 
-.social-2 li:last-child {
+.social-2 a:last-child {
     background: #D51C17;
 
     border-radius: 25px;
@@ -39,7 +39,7 @@ footer div {
     padding: 9.5px 10.5px 3.5px 10.5px;
 }
 
-.social-2 li:first-child {
+.social-2 a:first-child {
     background: #D51C17;
 
     border-radius: 25px;

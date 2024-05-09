@@ -29,7 +29,7 @@ header {
     list-style: none;
 }
 
-.navbar-1 ul {
+.navbar-1 div {
     display: flex;
 
     list-style: none;
@@ -43,10 +43,16 @@ header {
 .climate {
     flex: 1 1 25%;
     justify-content: center;
+    align-items: center;
 }
 
-.climate li:last-child {
+.climate div:last-child {
+    flex-direction: column;
     margin-left: 8px;
+}
+
+.climate span {
+    display: block;
 }
 
 .assi-class {
@@ -58,7 +64,7 @@ header {
     text-decoration: none;
 }
 
-.assi-class li:first-child {
+.assi-class a:first-child {
     margin-right: 18px;
 }
 
@@ -105,7 +111,7 @@ header {
     justify-content: end;
 }
 
-.social li:last-child {
+.social a:last-child {
     background-color: #D51C17;
 
     border-radius: 25px;
@@ -114,7 +120,7 @@ header {
     margin-left: 15px;
 }
 
-.social li:first-child {
+.social a:first-child {
     background: #D51C17;
 
     border-radius: 25px;
@@ -122,7 +128,7 @@ header {
     padding: 11px 16.2px 6px 16.2px;
 }
 
-.social li:hover {
+.social a:hover {
     opacity: 0.9;
 }
 

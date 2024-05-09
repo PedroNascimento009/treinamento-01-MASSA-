@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Poppins';
+    src: url(/components/font/Poppins-Regular.ttf);
+}
 
 body {
     font-family: "Poppins", sans-serif;
@@ -25,19 +28,24 @@ p {
     color: #2F2F2F;
 }
 
+cite {
+    font-style: normal;
+}
+
 .upppercase {
     text-transform: uppercase;
 }
 
-.climate h5 {
+.climate span:first-child {
     font-size: 14px;
+    font-weight: bold;
 
     color: #2F2F2F;
 }
 
-.climate h6 {
+.climate span:last-child {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
 
     color: #525252;
 }
@@ -49,7 +57,7 @@ p {
     color: #D51C17;
 }
 
-.search input{
+.search input {
     color: #4D4D4D;
 }
 
@@ -60,20 +68,22 @@ p {
     color: #2F2F2F;
 }
 
-.no-break:last-child a { 
+.no-break:last-child a {
     color: #D51C17;
 }
 
 .box-img-home a {
     font-size: 12px;
-    font-weight: 700;
+    font-weight: bold;
 
     color: #D51C17;
 }
 
-.box-img-home h5 {
+.box-img-home span {
     font-size: 12px;
-    font-weight: 550;
+    font-weight: 650;
+
+    color: #525252;
 }
 
 .project {
@@ -115,15 +125,16 @@ p {
     color: #525252;
 }
 
-.download-cape h3,
-.interview h3 {
+.download-cape span:first-child,
+.interview span:first-child {
     font-size: 14px;
+    font-weight: bold;
 
     color: #D51C17;
 }
 
-.download-cape h4,
-.interview h4 {
+.download-cape span:last-child,
+.interview span:last-child {
     font-size: 12px;
 
     color: #545454;
@@ -135,16 +146,16 @@ p {
     color: #2F2F2F;
 }
 
-.text-center mark{
+.text-center mark {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bolder;
 
     color: #D51C17;
 }
 
-.read-too h2 {
+.read-too div h3 {
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: 800;
 
     color: #D51C17;
 }
