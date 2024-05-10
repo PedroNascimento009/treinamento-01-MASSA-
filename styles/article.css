@@ -1,0 +1,204 @@
+.article-main {
+    z-index: 2;
+    position: relative;
+    bottom: 136px;
+
+    max-width: 960px;
+
+    padding: 0px 50px;
+    margin: 0 auto;
+}
+
+.article-main section:first-child {
+    padding-top: 0px;
+}
+
+.article-main p {
+    margin-top: 10px;
+}
+
+.quote-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote-1 div {
+    flex: 1 1 50%;
+}
+
+.quote-1 div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.quote-1 div:first-child img {
+    width: 14%;
+
+    margin: 0 auto;
+}
+
+.quote-1 div:first-child blockquote {
+    max-width: 357px;
+
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.video-eva {
+    margin: 40px auto;
+
+    text-align: center;
+}
+
+.video-eva iframe {
+    border-radius: 6px;
+    border: 0px;
+}
+
+.album span {
+    display: block;
+
+    margin-bottom: 15px;
+}
+
+.album {
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+.album iframe {
+    border: 1px;
+}
+
+.border-red {
+    display: flex;
+    align-items: center;
+
+    padding: 12px;
+
+    border: 1px solid #D51C17;
+    border-radius: 20px;
+}
+
+.download-cape,
+.interview {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.download-cape div,
+.interview div {
+    margin-right: 15px;
+}
+
+.download-cape span,
+.interview span {
+    display: block;
+}
+
+.text-center {
+    max-width: 820px;
+
+    padding-left: 50px;
+    margin: 25px auto;
+    margin-bottom: 25px;
+}
+
+.text-center mark {
+    background-color: transparent;
+}
+
+.picture-birth {
+    text-align: center;
+}
+
+.picture-birth img {
+    width: 100%;
+    height: auto;
+}
+
+.read-too {
+    background-color: #F8F9FC;
+
+    height: 343px;
+}
+
+.read-too div {
+    max-width: 1200px;
+
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.read-too h3 {
+    margin: 0px 10px;
+}
+
+.read-too section {
+    max-width: 1200px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+}
+
+.read-too ul {
+    background-color: #FFFFFF;
+
+    width: 224px;
+    height: 200px;
+
+    margin-right: 7px;
+
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+
+    list-style: none;
+}
+
+.read-too ul span {
+    background-color: #D51C17;
+    color: #FFFFFF;
+
+    padding: 4px 10px;
+
+    width: 63px;
+
+    border-radius: 4px;
+
+    text-align: center;
+}
+
+.read-too ul:last-child {
+    margin-right: 0px;
+}
+
+.read-too ul li {
+    padding: 20px;
+}
+
+.read-too p {
+    margin-bottom: 0;
+    margin-top: 55px;
+}
+
+.read-too ul p:first-child {
+    max-width: 92%;
+}
+
+.read-too ul li p:last-child {
+    margin: 0;
+    margin-top: 5px;
+}
