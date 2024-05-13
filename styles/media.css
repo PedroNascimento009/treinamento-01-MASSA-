@@ -46,6 +46,18 @@
         flex: 1 1 35%;
     }
 
+    .read-too h3 {
+        max-width: 100%;
+    }
+
+    .read-too p, .read-too h3 {
+        margin-top: 7vw;
+    }
+
+    .read-too article:last-child{
+        display: none;
+    }
+
     footer {
         padding: 0px 20px;
     }
@@ -68,7 +80,7 @@
         font-size: 16px;
     }
 
-    .read-too section ul p {
+    .read-too section article h3 {
         font-size: 13px;
 
         line-height: 16px;
@@ -136,7 +148,7 @@
         font-size: 14px;
     }
 
-    .read-too section ul p {
+    .read-too section article h3 {
         font-size: 10px;
 
         line-height: 16px;
@@ -175,31 +187,39 @@
         height: 1250px;
     }
 
+    .read-too article h3{
+        margin-top: 55px;
+    }
+
     .read-too section {
         flex-direction: column;
         align-items: center;
     }
 
-    .read-too ul {
+    .read-too article {
         width: 90%;
         height: 200px;
 
         margin: 10px;
     }
 
-    .read-too ul:last-child {
+    .read-too article:last-child {
         margin-left: 0;
     }
 
-    .read-too ul li {
+    .read-too article {
         padding: 30px;
+    }
+
+    .read-too article:last-child{
+        display: block;
     }
 
     .navbar-down {
         padding-bottom: 0px;
     }
 
-    .copyright h5 {
+    .copyright span {
         margin: 0 auto;
 
         text-align: center;
@@ -233,13 +253,13 @@
         font-size: 20px;
     }
 
-    .download-cape h3,
-    .interview h3 {
+    .download-cape span:first-child,
+    .interview span:first-child {
         font-size: 12px;
     }
 
-    .download-cape h4,
-    .interview h4 {
+    .download-cape span:last-child,
+    .interview span:last-child {
         font-size: 10px;
     }
 
@@ -255,7 +275,7 @@
         font-size: 20px;
     }
 
-    .read-too ul li p {
+    .read-too section article h3 {
         font-size: 15px;
     }
 }
@@ -379,7 +399,7 @@
         font-size: 10px;
     }
 
-    .box-img-home ul li h5 {
+    .box-img-home ul li span {
         font-size: 10px;
     }
 
@@ -387,7 +407,7 @@
         font-size: 16px;
     }
 
-    .copyright h5 {
+    .copyright span {
         font-size: 10px;
     }
 
