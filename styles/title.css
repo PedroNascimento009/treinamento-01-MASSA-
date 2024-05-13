@@ -72,7 +72,7 @@ cite {
     font-size: 12px;
     font-weight: 600;
 
-    color: #525252;
+    color: #7C7C7C;
 }
 
 .assi-class a {
@@ -83,7 +83,7 @@ cite {
 }
 
 .search input {
-    color: #4D4D4D;
+    color: #9F9F9F;
 }
 
 .navbar-categories a {
@@ -108,13 +108,13 @@ cite {
     font-size: 12px;
     font-weight: 650;
 
-    color: #525252;
+    color: #6C6C6C;
 }
 
 .project {
     font-size: 20px;
 
-    color: #525252;
+    color: #7C7C7C;
 }
 
 .icons ul:first-child p {
@@ -147,7 +147,7 @@ cite {
 .reprodution {
     font-size: 12px;
 
-    color: #525252;
+    color: #7C7C7C;
 }
 
 .download-cape span:first-child,
@@ -162,7 +162,7 @@ cite {
 .interview span:last-child {
     font-size: 12px;
 
-    color: #545454;
+    color: #9F9F9F;
 }
 
 .difficult {
@@ -203,7 +203,7 @@ cite {
     font-size: 10px;
     font-weight: 500;
 
-    color: #545454;
+    color: #9F9F9F;
 }
 
 .navbar-down h3 {
@@ -221,5 +221,5 @@ cite {
     font-size: 10px;
     font-weight: 500;
 
-    color: #4D4D4D;
+    color: #A0A0A0;
 }
